@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Pulsebootstrap.min.css">
+    <title>POO Js</title>
+</head>
+<body>
+    
+    <div class="container py-5" id="container">
+        <div class="row my-5" id="app">
+            <div class="col-md-5">
+                <form class="card" id="form">
+                    <div class="card-header text-center text-primary bg-white">
+                        <h1>Product App POO Js</h1>
+                    </div>
+                    <div class="card-body">
+                        <input type="text" class="form-control" placeholder="Enter product name" id="name" autofocus autocomplete="off">
+                        <input type="number" min="1.5" step="1.5" class="form-control my-3" id="price" placeholder="Enter product price">
+                        <input type="number" class="form-control" min="1999" value="2021" max="2021" placeholder="Enter product year" id="year">
+                        <input type="submit" value="Save" class="btn btn-primary btn-block mt-3 w-75 mx-auto">
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-7">
+                <div id="product-list"></div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
